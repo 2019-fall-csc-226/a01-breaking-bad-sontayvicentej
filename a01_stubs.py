@@ -17,12 +17,27 @@
 ######################################################################
 # (Required) Task 1
 # TODO Ask user for their birth year
-
+birthyr = ((input("What year were you born in? ")))
+print(birthyr + "?")
 
 # TODO Check the year using if conditionals, and print the correct animal for that year.
 # See the a01_pets.py for examples
-
-
+if birthyr == '2000':
+    print("You were born in the year of the Dragon!")
+elif birthyr == '2001':
+    print("You're a sssssnake!")
+elif birthyr == '2002':
+    print("You have horsepower in you.")
+elif birthyr == '2003':
+    print("You're the GOAT!")
+elif birthyr == '2004':
+    print("You're a silly monkey!")
+elif birthyr == '2005':
+    print("You're a rooster!")
+elif birthyr == '2006':
+    print("You're a dawg!")
+elif birthyr == '2007':
+    print("You're a filthy pig.")
 ######################################################################
 # (Required) Task 2
 # TODO Ask the user for their friend's birth year
