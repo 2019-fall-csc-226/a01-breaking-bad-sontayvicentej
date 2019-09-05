@@ -41,8 +41,24 @@ elif birthyr == '2007':
 ######################################################################
 # (Required) Task 2
 # TODO Ask the user for their friend's birth year
-
-
+friend = input("What is your friend's birth year?")
+print(friend + "?")
+if friend == '2000':
+    print("They were born in the year of the Dragon!")
+elif friend == '2001':
+    print("They're a sssssnake!")
+elif friend == '2002':
+    print("They have horsepower in them.")
+elif friend == '2003':
+    print("They're the GOAT!")
+elif friend == '2004':
+    print("They're a silly monkey!")
+elif friend == '2005':
+    print("They're a rooster!")
+elif friend == '2006':
+    print("They'ree a dawg!")
+elif friend == '2007':
+    print("They're a filthy pig.")
 # TODO Similar to above, check your friend's year using if conditionals, and print the correct animal for that year
 
 
